@@ -6,7 +6,7 @@ app.use(express.static(__dirname));
 
 
 app.use('/', function(req, res) {
-    res.sendfile(path.join(__dirname, 'index.html'));
+    res.sendfile(express.static(__dirname, 'index.html'));
 });
 
 app.listen(app.get('port'), function() {
