@@ -18,9 +18,6 @@ define(['modules/bread-units/bread-units-module'], function(breadUnits) {
         }
     }
 
-    return BreadUnitsController;
-
-
     function getBreadUnits() {
         return [
             {
