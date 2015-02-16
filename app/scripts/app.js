@@ -9,6 +9,8 @@ define([
 ], function(angular) {
     'use strict';
 
+    window.version = '0.0.1-dev';
+
     return angular.module('diabetes', [
         // Angular Modules
         'ngRoute',
