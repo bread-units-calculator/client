@@ -366,7 +366,10 @@ module.exports = function (grunt) {
                     dot: true,
                     cwd: '.',
                     dest: '<%= yeoman.dist %>',
-                    src: 'server.js'
+                    src: [
+                        'Procfile',
+                        'server.js'
+                    ]
                 }]
             },
             styles: {
